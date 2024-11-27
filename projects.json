@@ -1,0 +1,22 @@
+[
+  {
+    "imgSrc": "ClassTest_optimized.png",
+    "imgAlt": "Automated Class Test Evaluation System for CUET",
+    "title": "Automated Class Test Evaluation System for CUET",
+    "links": [
+      {
+        "label": "Live Link",
+        "url": "https://example.com/live"
+      },
+      {
+        "label": "Frontend",
+        "url": "https://github.com/example/frontend"
+      },
+      {
+        "label": "Backend",
+        "url": "https://github.com/example/backend"
+      }
+    ],
+    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+  }
+]

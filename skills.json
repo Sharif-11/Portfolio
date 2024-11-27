@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Backend Development",
+    "experiences": [
+      {
+        "skill": "Node.js",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "Express.js",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "MongoDB",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "Mongoose",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "PostgreSQL",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "Prisma",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "RESTful API",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "Socket.io",
+        "level": "Basic",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "Git",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "Github",
+        "level": "Intermediate",
+        "iconSrc": "./assets/checkmark.png"
+      },
+      {
+        "skill": "Firebase",
+        "level": "Basic",
+        "iconSrc": "./assets/checkmark.png"
+      }
+    ]
+  }
+]

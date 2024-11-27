@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shariful Islam</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shariful Islam</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#experience">Experience</a></li> -->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Shariful Islam</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/Shariful Islam.jpeg"
+          alt="Shariful Islam profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shariful Islam</h1>
+        <p class="section__text__p2">Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Shariful_Islam.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/shariful-islam-7a8b37198')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/Sharif-11')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Shariful Islam.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. in Engineering (Computer Science & Engineering)</p>
+              <p>From CUET</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a Computer Science graduate with expertise in JavaScript,
+              React, Node.js, and SQL. I have hands-on experience in developing
+              and optimizing cross-platform applications. Having solved over
+              1000 problems on Codeforces, I have also worked on projects such
+              as healthcare and education automation systems. My passion lies in
+              problem-solving and enhancing efficiency, and I strive to build
+              scalable, user-centered solutions in the field of software
+              engineering.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section class="skills-section" id="skills-section">
+      <p class="section__text__p1">Explore My Recent</p>
+      <h1 class="title">Skills</h1>
+
+      <div class="skills-list">
+        <button class="skill-button">React</button>
+        <button class="skill-button">React Native</button>
+        <button class="skill-button">Redux</button>
+
+        <button class="skill-button">Node.js</button>
+        <button class="skill-button">Express.js</button>
+
+        <button class="skill-button">PostgreSQL</button>
+        <button class="skill-button">Prisma</button>
+        <button class="skill-button">MongoDB</button>
+        <button class="skill-button">Mongoose</button>
+
+        <button class="skill-button">JavaScript</button>
+        <button class="skill-button">TypeScript</button>
+        <button class="skill-button">Python</button>
+        <button class="skill-button">C</button>
+        <button class="skill-button">C++</button>
+
+        <button class="skill-button">HTML</button>
+        <button class="skill-button">CSS</button>
+        <button class="skill-button">Tailwind</button>
+
+        <button class="skill-button">Git</button>
+        <button class="skill-button">GitHub</button>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div id="project-container" class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ClassTest_optimized.png"
+                alt="Automated Class Test Evaluation System for CUET"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Automated Class Test Evaluation System for CUET
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sharif-11/Class-Test-Attendance-Teacher-Panel')"
+              >
+                Teacher Panel
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sharif-11/Class-Test-Attendance-Automation-Server')"
+              >
+                Backend
+              </button>
+            </div>
+            <div class="technologies">
+              <ul class="technologies-container">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+                <li>Prisma</li>
+              </ul>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Online-judge.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Online Contest Platform for Competitive Programmer
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://cse-326-project-91c7b.firebaseapp.com/')"
+              >
+                Live Link
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sharif-11/Online-Judge')"
+              >
+                Frontend
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sharif-11/Online-Judge-Server')"
+              >
+                Backend
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Appointment.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Appointment Management Solution for Doctor
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sharif-11/Appointment-Booking-Admin-Panel')"
+              >
+                Doctor Panel
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sharif-11/Appointment-Booking-User-Panel')"
+              >
+                Patient Panel
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Sharif-11/Appointment-Booking-Server')"
+              >
+                Backend
+              </button>
+            </div>
+            <div class="technologies">
+              <ul class="technologies-container">
+                <li>React.Js</li>
+                <li>Node.Js</li>
+                <li>Express.Js</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:shariful.islam.cuet@gmail.com"
+              >shariful.islam.cuet@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/shariful-islam-7a8b37198/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone.png"
+            alt="Phone icon"
+            class="icon contact-icon"
+          />
+          <p><a>(+880) 1776775495</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        Copyright &#169; <span id="year"></span> Shariful Islam. All Rights
+        Reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
