@@ -1,6 +1,6 @@
 [
   {
-    "imgSrc": "ClassTest_optimized.png",
+    "imgSrcList": ["./assets/ClassTest_optimized.png"],
     "imgAlt": "Automated Class Test Evaluation System for CUET",
     "title": "Automated Class Test Evaluation System for CUET",
     "links": [
@@ -16,7 +16,17 @@
     "technologies": ["React", "Redux", "Node.js", "PostgreSQL", "Prisma"]
   },
   {
-    "imgSrc": "Online-judge.png",
+    "imgSrcList": [
+      "./assets/Contest/Contest_00.png",
+      "./assets/Contest/Contest_01.png",
+      "./assets/Contest/Contest_02.png",
+      "./assets/Contest/Contest_03.png",
+      "./assets/Contest/Contest_04.png",
+      "./assets/Contest/Contest_05.png",
+      "./assets/Contest/Contest_06.png",
+      "./assets/Contest/Contest_07.png",
+      "./assets/Contest/Contest_08.png"
+    ],
     "imgAlt": "Online Contest Platform for Competitive Programmer",
     "title": "Online Contest Platform for Competitive Programmer",
     "links": [
@@ -36,7 +46,7 @@
     "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Firebase"]
   },
   {
-    "imgSrc": "Appointment.png",
+    "imgSrcList": ["./assets/Appointment.png"],
     "imgAlt": "Appointment Management Solution for Doctor",
     "title": "Appointment Management Solution for Doctor",
     "links": [

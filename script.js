@@ -8,7 +8,7 @@ function toggleMenu() {
 const yearElement = document.getElementById("year");
 yearElement.innerText = new Date().getFullYear();
 
-function addProject({ imgSrc, imgAlt, title, links, technologies }) {
+function addProject({ imgSrcList, imgAlt, title, links, technologies }) {
   // Find the container to append the new project
   const aboutContainers = document.getElementById("project-container");
 
@@ -25,10 +25,17 @@ function addProject({ imgSrc, imgAlt, title, links, technologies }) {
   const imageContainer = document.createElement("div");
   imageContainer.classList.add("article-container");
   const image = document.createElement("img");
-  image.src = `./assets/${imgSrc}`;
+  image.src = `${imgSrcList[0]}`;
   image.alt = imgAlt;
   image.classList.add("project-img");
   imageContainer.appendChild(image);
+
+  // Rotate images every 2 seconds
+  let currentIndex = 0;
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % imgSrcList.length; // Loop back to the first image
+    image.src = `${imgSrcList[currentIndex]}`;
+  }, 2000);
 
   // Project title
   const projectTitle = document.createElement("h2");
