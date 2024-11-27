@@ -442,7 +442,7 @@ footer p {
 }
 #projects .details-container {
   width: 300px;
-  max-width: 300px;
+  max-width: min(300px, 95%);
 
   /* height: 402px; */
 }

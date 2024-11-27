@@ -136,5 +136,5 @@ fetch("./skills.json")
 fetch("./projects.json")
   .then((response) => response.json())
   .then((data) => {
-    // data.forEach((project) => addProject(project));
+    data.forEach((project) => addProject(project));
   });

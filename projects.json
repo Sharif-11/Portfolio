@@ -5,18 +5,54 @@
     "title": "Automated Class Test Evaluation System for CUET",
     "links": [
       {
-        "label": "Live Link",
-        "url": "https://example.com/live"
-      },
-      {
-        "label": "Frontend",
-        "url": "https://github.com/example/frontend"
+        "label": "Teacher Panel",
+        "url": "https://github.com/Sharif-11/Class-Test-Attendance-Teacher-Panel"
       },
       {
         "label": "Backend",
-        "url": "https://github.com/example/backend"
+        "url": "https://github.com/Sharif-11/Class-Test-Attendance-Automation-Server"
       }
     ],
-    "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    "technologies": ["React", "Redux", "Node.js", "PostgreSQL", "Prisma"]
+  },
+  {
+    "imgSrc": "Online-judge.png",
+    "imgAlt": "Online Contest Platform for Competitive Programmer",
+    "title": "Online Contest Platform for Competitive Programmer",
+    "links": [
+      {
+        "label": "Live Site",
+        "url": "https://cse-326-project-91c7b.firebaseapp.com/"
+      },
+      {
+        "label": "Frontend",
+        "url": "https://github.com/Sharif-11/Online-Judge"
+      },
+      {
+        "label": "Backend",
+        "url": "https://github.com/Sharif-11/Online-Judge-Server"
+      }
+    ],
+    "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Firebase"]
+  },
+  {
+    "imgSrc": "Appointment.png",
+    "imgAlt": "Appointment Management Solution for Doctor",
+    "title": "Appointment Management Solution for Doctor",
+    "links": [
+      {
+        "label": "Doctor Panel",
+        "url": "https://github.com/Sharif-11/Appointment-Booking-Admin-Panel"
+      },
+      {
+        "label": "User Panel",
+        "url": "https://github.com/Sharif-11/Appointment-Booking-User-Panel"
+      },
+      {
+        "label": "Backend",
+        "url": "https://github.com/Sharif-11/Appointment-Booking-Server"
+      }
+    ],
+    "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Mongoose"]
   }
 ]
