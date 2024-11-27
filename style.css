@@ -345,6 +345,7 @@ section {
 .article-container img {
   height: 271px;
   width: 300px;
+  max-width: 100%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   /* object-fit: cover; */
 }
