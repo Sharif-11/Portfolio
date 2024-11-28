@@ -56,7 +56,16 @@
     "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Firebase"]
   },
   {
-    "imgSrcList": ["./assets/Appointment.png"],
+    "imgSrcList": [
+      "./assets/Appointment/Pic_01.png",
+      "./assets/Appointment/Pic_02.png",
+      "./assets/Appointment/Pic_03.png",
+      "./assets/Appointment/Pic_04.png",
+      "./assets/Appointment/Pic_05.png",
+      "./assets/Appointment/Pic_06.png",
+      "./assets/Appointment/Pic_07.png",
+      "./assets/Appointment/Pic_08.png"
+    ],
     "imgAlt": "Appointment Management Solution for Doctor",
     "title": "Appointment Management Solution for Doctor",
     "links": [
