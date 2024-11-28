@@ -1,6 +1,16 @@
 [
   {
-    "imgSrcList": ["./assets/ClassTest_optimized.png"],
+    "imgSrcList": [
+      "./assets/Classtest/CT_01.png",
+      "./assets/Classtest/CT_02.png",
+      "./assets/Classtest/CT_03.png",
+      "./assets/Classtest/CT_04.png",
+      "./assets/Classtest/CT_05.png",
+      "./assets/Classtest/CT_06.png",
+      "./assets/Classtest/CT_07.png",
+      "./assets/Classtest/CT_08.png",
+      "./assets/Classtest/CT_09.png"
+    ],
     "imgAlt": "Automated Class Test Evaluation System for CUET",
     "title": "Automated Class Test Evaluation System for CUET",
     "links": [
